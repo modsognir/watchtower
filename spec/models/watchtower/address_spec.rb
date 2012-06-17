@@ -1,5 +1,13 @@
 require 'spec_helper'
 
-describe Address do
-  pending "add some examples to (or delete) #{__FILE__}"
+describe Watchtower::Address do
+  describe "kind" do
+    it "defaults to 'primary'" do
+      Watchtower::Address.new.kind.should == "primary"
+    end
+
+    it "uses the kind field if present" do
+      Watchtower::Address.new(kind: "something").kind.should == "something"
+    end
+  end
 end

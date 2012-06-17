@@ -11,7 +11,21 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20120617002810) do
+ActiveRecord::Schema.define(:version => 20120617010925) do
+
+  create_table "watchtower_addresses", :force => true do |t|
+    t.string   "address_1"
+    t.string   "address_2"
+    t.string   "address_3"
+    t.string   "city"
+    t.string   "state"
+    t.string   "country"
+    t.string   "postcode"
+    t.string   "name"
+    t.string   "kind"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
 
   create_table "watchtower_contacts", :force => true do |t|
     t.string   "first_name"
@@ -22,22 +36,14 @@ ActiveRecord::Schema.define(:version => 20120617002810) do
     t.datetime "updated_at",  :null => false
   end
 
-  create_table "watchtower_emails", :force => true do |t|
+  create_table "watchtower_data", :force => true do |t|
     t.string   "name"
-    t.string   "address"
+    t.string   "content"
+    t.string   "type"
     t.boolean  "primary"
     t.integer  "contact_id"
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
   end
-
-  create_table "watchtower_phones", :force => true do |t|
-    t.string   "number"
-    t.integer  "contact_id"
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
-  end
-
-  add_index "watchtower_phones", ["contact_id"], :name => "index_watchtower_phones_on_contact_id"
 
 end

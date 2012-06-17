@@ -38,8 +38,8 @@ describe Watchtower::Contact do
   describe "#primary_email" do
     contact = Watchtower::Contact.create!
     
-    contact.emails << Watchtower::Email.new(address: "j.fraser@modsognir.com", primary: true)
-    contact.emails << Watchtower::Email.new(address: "jared.fraser@modsognir.com")
+    contact.emails << Watchtower::Email.new(content: "j.fraser@modsognir.com", primary: true)
+    contact.emails << Watchtower::Email.new(content: "jared.fraser@modsognir.com")
     contact.save
 
     contact.primary_email.to_s.should == "j.fraser@modsognir.com"
