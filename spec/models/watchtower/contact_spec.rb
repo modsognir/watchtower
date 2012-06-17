@@ -36,12 +36,22 @@ describe Watchtower::Contact do
   end
 
   describe "#primary_email" do
-    contact = Watchtower::Contact.create!
-    
-    contact.emails << Watchtower::Email.new(content: "j.fraser@modsognir.com", primary: true)
-    contact.emails << Watchtower::Email.new(content: "jared.fraser@modsognir.com")
-    contact.save
+    it "recognises the primary email" do
+      contact = Watchtower::Contact.create!
+      
+      contact.emails << Watchtower::Email.new(content: "j.fraser@modsognir.com", primary: true)
+      contact.emails << Watchtower::Email.new(content: "jared.fraser@modsognir.com")
+      contact.save
 
-    contact.primary_email.to_s.should == "j.fraser@modsognir.com"
+      contact.primary_email.to_s.should == "j.fraser@modsognir.com"
+    end
+  end
+
+  describe "#tag_with" do
+    it "adds an unmade tag" do
+      contact = Watchtower::Contact.create!
+      contact.tag_with("Some Classification")
+      contact.reload.tag_names.should include("Some Classification")
+    end
   end
 end

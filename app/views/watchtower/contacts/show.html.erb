@@ -1,5 +1,6 @@
 <p id="notice"><%= notice %></p>
 
+<h2><%= @contact.full_name %></h3>
 <p>
   <b>First name:</b>
   <%= @contact.first_name %>
@@ -10,16 +11,55 @@
   <%= @contact.last_name %>
 </p>
 
-<p>
-  <b>Primary email:</b>
-  <%= @contact.primary_email %>
-</p>
+<div id="sidebar">
+  <h3>Email Addresses</h3>
+  <ul>
+    <li><%= render @contact.emails %></li>
+  </ul>
 
-<p>
-  <b>Primary phone:</b>
-  <%= @contact.primary_phone %>
-</p>
+  <h3>Phone Numbers</h3>
+  <ul>
+    <li><%= render @contact.phones %></li>
+  </ul>
 
+  <h3>Addresses</h3>
+  <ul>
+    <li><%= render @contact.addresses %></li>
+  </ul>
+</div>
+
+<div class="tags">
+  <h3>Tags</h3>
+  <ul>
+    <% @contact.tags.each do |tag| %>
+      <li><%= tag.to_s %></li>
+    <% end %>
+  </ul>
+  <%= form_tag tag_contact_path(@contact) do %>
+    <div class="field">
+      <%= text_field_tag :tag_name %>
+    </div>
+    <div class="field">
+      <%= submit_tag "Add Tag" %>
+    </div>
+  <% end %>
+</div>
+
+<div class="notes">
+  <h3> Notes </h3>
+  <ul>
+    <li><%= render @contact.notes %></li>
+  </ul>
+</div>
+
+<%= form_for [@contact, @contact.notes.new] do |f| %>
+  <div class="field">
+    <%= f.text_area :content %>
+  </div>
+  <div class="field">
+    <%= f.submit "Add Note" %>
+  </div>
+<% end %>
 
 <%= link_to 'Edit', edit_contact_path(@contact) %> |
 <%= link_to 'Back', contacts_path %>

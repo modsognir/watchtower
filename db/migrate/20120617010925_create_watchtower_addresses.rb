@@ -10,6 +10,7 @@ class CreateWatchtowerAddresses < ActiveRecord::Migration
       t.string :postcode
       t.string :name
       t.string :kind
+      t.integer :contact_id
 
       t.timestamps
     end

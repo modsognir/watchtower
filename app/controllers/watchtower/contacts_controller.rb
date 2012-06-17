@@ -83,5 +83,19 @@ module Watchtower
         format.json { head :no_content }
       end
     end
+
+    def tag
+      @contact = Contact.find(params[:id])
+
+      respond_to do |format|
+        if @contact.tag_with(params[:tag_name]).valid?
+          format.html { redirect_to @contact, notice: 'Contact was successfully tagged.' }
+          format.json { head :no_content }
+        else
+          format.html { render action: "show" }
+          format.json { render json: @contact.errors, status: :unprocessable_entity }
+        end
+      end
+    end
   end
 end

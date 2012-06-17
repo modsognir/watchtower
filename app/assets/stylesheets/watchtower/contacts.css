@@ -2,3 +2,53 @@
   Place all the styles related to the matching controller here.
   They will automatically be included in application.css.
 */
+
+body {
+  margin: 15px;
+  margin-top: 55px;
+  line-height: 24px !important;
+  margin-left: 35px;
+}
+
+.navbar-inner {
+  height: 36px;
+  background: #f0f0f0;
+  padding-left: 20px;
+}
+
+.navbar a {
+  color: #333 !important;
+  text-shadow: none;
+}
+.navbar .brand {
+  margin-left: 15px;
+}
+
+.navbar li.active a {
+  height: 20px;
+  color: #f5f5f5 !important;
+}
+
+h1, h3 {
+  margin-top: 20px;
+  margin-bottom: 8px;
+}
+h1 {
+  font-size: 25px;
+}
+
+h3 {
+  font-weight: 200;
+}
+
+table {
+  width: 100%;
+}
+
+.field {
+  margin-bottom: 10px
+
+}
+.field input {
+  margin-left: 15px;
+}

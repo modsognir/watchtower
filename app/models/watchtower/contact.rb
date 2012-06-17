@@ -13,7 +13,17 @@ module Watchtower
 
     has_many :addresses, :class_name => "Watchtower::Address"
 
+    has_many :notes, :class_name => "Watchtower::Note"
+    has_many :users, :through => :notes
 
+    has_many :taggings, :class_name => "Watchtower::Tagging"
+    has_many :tags, :through => :taggings
+
+    def tag_names
+      tags.map(&:to_s)
+    end
+
+    # FIXME: metaprogramming bad
     %w(email address phone).each do |type|
       define_method "primary_#{type}" do
         self.send(type.pluralize).where(primary: true).first || self.send(type.pluralize).first
@@ -34,6 +44,10 @@ module Watchtower
 
     def to_s
       full_name
+    end
+
+    def tag_with(tag_name)
+      taggings.create(tag: Tag.find_or_create_by_name(tag_name))
     end
   end
 end

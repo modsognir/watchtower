@@ -7,7 +7,18 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-
+<div class="navbar navbar-fixed-top">
+  <div class="navbar-inner">
+    <a class="brand" href="<%= contacts_path %>">Watchtower Demo</a>
+    <div class="nav-collapse">
+      <ul class="nav">
+        <li class="active"><a href="<%= contacts_path %>">Home</a></li>
+<!--         <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li> -->
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div>
+</div>
 <%= yield %>
 
 </body>
