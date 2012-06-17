@@ -4,6 +4,8 @@ module Watchtower
     belongs_to :contact
     attr_accessible :content
 
+    validates :content, :presence => true
+
     def to_s
       content
     end

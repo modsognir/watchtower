@@ -47,7 +47,7 @@ module Watchtower
     end
 
     def tag_with(tag_name)
-      taggings.create(tag: Tag.find_or_create_by_name(tag_name))
+      taggings.create(tag: Tag.find_or_create_by_name(tag_name.try(:downcase)))
     end
   end
 end

@@ -7,8 +7,8 @@ require "watchtower/version"
 Gem::Specification.new do |s|
   s.name        = "watchtower"
   s.version     = Watchtower::VERSION
-  s.authors     = ["TODO: Your name"]
-  s.email       = ["TODO: Your email"]
+  s.authors     = ["Jared Fraser"]
+  s.email       = ["j.fraser@modsognir.com"]
   s.homepage    = "TODO"
   s.summary     = "TODO: Summary of Watchtower."
   s.description = "TODO: Description of Watchtower."

@@ -5,4 +5,6 @@ Watchtower::Engine.routes.draw do
       post :tag
     end
   end
+
+  resources :tags
 end

@@ -14,4 +14,12 @@ describe 'Categorising a Contact' do
 
     contact.reload.tag_names.map(&:to_s).should include("Bad News")
   end
+
+  it "can list a bunch of tags" do
+    Tag.create(name: "Some Tag"
+
+    visit wtapp.tags_path
+
+
+  end
 end

@@ -1,15 +1,38 @@
-<p id="notice"><%= notice %></p>
+<% if notice %>
+  <p id="notice" class="alert alert-info"><%= notice %></p>
+<% end %>
 
 <h2><%= @contact.full_name %></h3>
-<p>
-  <b>First name:</b>
-  <%= @contact.first_name %>
-</p>
+  <ul class="tags">
+    <% @contact.tags.each do |tag| %>
+      <li><span class="label"><%= tag.to_s %></span></li>
+    <% end %>
+    <li><%= link_to "add", "#", 'data-form' => 'tags' %></li>
+  </ul>
+<dl>
+  <div>
+    <dt>email</dt>
+    <dd><%= @contact.primary_email %></dd>
+  </div>
+  <div>
+    <dt>phone</dt>
+    <dd><%= @contact.primary_phone %></dd>
+  </div>
+</dl>
 
-<p>
-  <b>Last name:</b>
-  <%= @contact.last_name %>
-</p>
+<div class="dialog tags" id="tags">
+  <h2>Add a Tag</h2>
+  <p>
+    <%= form_tag tag_contact_path(@contact) do %>
+      <div class="field">
+        <%= text_field_tag :tag_name %>
+      </div>
+      <div class="field">
+        <%= submit_tag "Add Tag" %>
+      </div>
+    <% end %>
+  </p>
+</div>
 
 <div id="sidebar">
   <h3>Email Addresses</h3>
@@ -28,27 +51,10 @@
   </ul>
 </div>
 
-<div class="tags">
-  <h3>Tags</h3>
-  <ul>
-    <% @contact.tags.each do |tag| %>
-      <li><%= tag.to_s %></li>
-    <% end %>
-  </ul>
-  <%= form_tag tag_contact_path(@contact) do %>
-    <div class="field">
-      <%= text_field_tag :tag_name %>
-    </div>
-    <div class="field">
-      <%= submit_tag "Add Tag" %>
-    </div>
-  <% end %>
-</div>
-
 <div class="notes">
   <h3> Notes </h3>
   <ul>
-    <li><%= render @contact.notes %></li>
+    <%= render @contact.notes %>
   </ul>
 </div>
 

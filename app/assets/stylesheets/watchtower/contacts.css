@@ -10,6 +10,37 @@ body {
   margin-left: 35px;
 }
 
+ul.tags {
+  list-style: none;
+  margin-left: 0px;
+}
+ul.tags li {
+  display: inline-block;
+}
+
+dl {
+  margin-top: 0px;
+  clear: both;
+}
+
+dt {
+  font-weight: normal;
+  color: #888;
+  clear: both;
+  display: inline-block;
+  width: 50px;
+}
+
+dd {
+  display: inline;
+  clear: right;
+}
+
+textarea {
+  height: 100px;
+  width: 600px;
+}
+
 .navbar-inner {
   height: 36px;
   background: #f0f0f0;
@@ -39,6 +70,7 @@ h1 {
 
 h3 {
   font-weight: 200;
+  clear: left;
 }
 
 table {
@@ -52,3 +84,61 @@ table {
 .field input {
   margin-left: 15px;
 }
+
+
+
+
+.dialog {
+  width: 100px;
+  margin: auto;
+  display: none;
+
+  position: fixed;
+  top: 20%;
+  left: 50%;
+
+  margin-left: -300px;
+  width: 500px;
+
+  background-color: #fff;
+  -webkit-box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
+  -webkit-background-clip: padding-box;
+  -moz-background-clip: padding-box;
+  background-clip: padding-box;
+  color: #333;
+  border: 1px solid #555;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+}
+.dialog h2 { 
+  margin: 23px;
+  margin-top: 14px;
+  font-size: 20px;
+  font-weight: 400;
+}
+.dialog p { margin: 8px;}
+.dialog p.dlg_content {
+  min-height: 25px;
+  font-size: 15px;
+  padding-left: 15px;
+}
+.dialog p.actions {
+  margin: 0;
+  display: block;
+  float: right;
+  height: 30px;
+  text-align: right;
+  padding: 14px 15px 15px;
+}
+/*    a { display: inline-block; }
+    a.submit {
+      @include button;
+      text-decoration: none;
+    }*/
+/*  }
+}*/
+
+
+.jqmOverlay { background-color: #fff; }
+
