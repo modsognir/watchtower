@@ -1,0 +1,693 @@
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (2.7ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) 
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("schema_migrations")[0m
+  [1m[35m (1.1ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreateWatchtowerContacts (20120616233432)
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.4ms)[0m  [1mCREATE TABLE "watchtower_contacts" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "first_name" varchar(255), "middle_name" varchar(255), "last_name" varchar(255), "gender" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ('20120616233432')
+  [1m[36m (1.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  select sqlite_version(*)
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("watchtower_contacts")
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (8.3ms)[0m  [1mINSERT INTO "watchtower_contacts" ("created_at", "first_name", "gender", "last_name", "middle_name", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", Sat, 16 Jun 2012 23:53:33 UTC +00:00], ["first_name", nil], ["gender", nil], ["last_name", nil], ["middle_name", nil], ["updated_at", Sat, 16 Jun 2012 23:53:33 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.5ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (3.5ms)[0m  [1mINSERT INTO "watchtower_contacts" ("created_at", "first_name", "gender", "last_name", "middle_name", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", Sat, 16 Jun 2012 23:53:56 UTC +00:00], ["first_name", nil], ["gender", nil], ["last_name", nil], ["middle_name", nil], ["updated_at", Sat, 16 Jun 2012 23:53:56 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.5ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (3.5ms)[0m  [1mINSERT INTO "watchtower_contacts" ("created_at", "first_name", "gender", "last_name", "middle_name", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", Sat, 16 Jun 2012 23:55:51 UTC +00:00], ["first_name", nil], ["gender", nil], ["last_name", nil], ["middle_name", nil], ["updated_at", Sat, 16 Jun 2012 23:55:51 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.5ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (3.5ms)[0m  [1mINSERT INTO "watchtower_contacts" ("created_at", "first_name", "gender", "last_name", "middle_name", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", Sat, 16 Jun 2012 23:57:14 UTC +00:00], ["first_name", nil], ["gender", nil], ["last_name", nil], ["middle_name", nil], ["updated_at", Sat, 16 Jun 2012 23:57:14 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  ROLLBACK TO SAVEPOINT active_record_1
+  [1m[36m (1.8ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreateWatchtowerContacts (20120616233432)
+Migrating to CreateWatchtowerEmails (20120616235440)
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.4ms)[0m  CREATE TABLE "watchtower_emails" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "address" varchar(255), "primary" boolean, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (0.1ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20120616235440')[0m
+  [1m[35m (2.0ms)[0m  commit transaction
+  [1m[36m (0.3ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("watchtower_contacts")[0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("watchtower_emails")
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (3.4ms)[0m  [1mINSERT INTO "watchtower_contacts" ("created_at", "first_name", "gender", "last_name", "middle_name", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", Sat, 16 Jun 2012 23:57:43 UTC +00:00], ["first_name", nil], ["gender", nil], ["last_name", nil], ["middle_name", nil], ["updated_at", Sat, 16 Jun 2012 23:57:43 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK TO SAVEPOINT active_record_1
+  [1m[36m (1.9ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.1ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+Migrating to CreateWatchtowerEmails (20120616235440)
+  [1m[36m (0.0ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.5ms)[0m  [1mDROP TABLE "watchtower_emails"[0m
+  [1m[35m (0.2ms)[0m  DELETE FROM "schema_migrations" WHERE "schema_migrations"."version" = '20120616235440'
+  [1m[36m (2.3ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.3ms)[0m  select sqlite_version(*)
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("watchtower_contacts")
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreateWatchtowerContacts (20120616233432)
+Migrating to CreateWatchtowerEmails (20120616235440)
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.5ms)[0m  CREATE TABLE "watchtower_emails" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "address" varchar(255), "primary" boolean, "contact_id" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (0.2ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20120616235440')[0m
+  [1m[35m (2.3ms)[0m  commit transaction
+  [1m[36m (0.3ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("watchtower_contacts")[0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("watchtower_emails")
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (3.5ms)[0m  [1mINSERT INTO "watchtower_contacts" ("created_at", "first_name", "gender", "last_name", "middle_name", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", Sat, 16 Jun 2012 23:58:46 UTC +00:00], ["first_name", nil], ["gender", nil], ["last_name", nil], ["middle_name", nil], ["updated_at", Sat, 16 Jun 2012 23:58:46 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "watchtower_emails" ("address", "contact_id", "created_at", "name", "primary", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["address", "j.fraser@modsognir.com"], ["contact_id", 1], ["created_at", Sat, 16 Jun 2012 23:58:46 UTC +00:00], ["name", nil], ["primary", nil], ["updated_at", Sat, 16 Jun 2012 23:58:46 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "watchtower_emails" WHERE "watchtower_emails"."contact_id" = 1
+  [1m[36mWatchtower::Email Load (0.1ms)[0m  [1mSELECT "watchtower_emails".* FROM "watchtower_emails" WHERE "watchtower_emails"."contact_id" = 1 LIMIT 1[0m
+  [1m[35m (2.0ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (3.6ms)[0m  [1mINSERT INTO "watchtower_contacts" ("created_at", "first_name", "gender", "last_name", "middle_name", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", Sat, 16 Jun 2012 23:59:14 UTC +00:00], ["first_name", nil], ["gender", nil], ["last_name", nil], ["middle_name", nil], ["updated_at", Sat, 16 Jun 2012 23:59:14 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.8ms)[0m  INSERT INTO "watchtower_emails" ("address", "contact_id", "created_at", "name", "primary", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["address", "j.fraser@modsognir.com"], ["contact_id", 1], ["created_at", Sat, 16 Jun 2012 23:59:14 UTC +00:00], ["name", nil], ["primary", nil], ["updated_at", Sat, 16 Jun 2012 23:59:14 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "watchtower_emails" WHERE "watchtower_emails"."contact_id" = 1
+  [1m[36mWatchtower::Email Load (0.1ms)[0m  [1mSELECT "watchtower_emails".* FROM "watchtower_emails" WHERE "watchtower_emails"."contact_id" = 1 LIMIT 1[0m
+  [1m[35m (1.9ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (4.0ms)[0m  [1mINSERT INTO "watchtower_contacts" ("created_at", "first_name", "gender", "last_name", "middle_name", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", Sun, 17 Jun 2012 00:01:49 UTC +00:00], ["first_name", nil], ["gender", nil], ["last_name", nil], ["middle_name", nil], ["updated_at", Sun, 17 Jun 2012 00:01:49 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "watchtower_emails" ("address", "contact_id", "created_at", "name", "primary", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["address", "j.fraser@modsognir.com"], ["contact_id", 1], ["created_at", Sun, 17 Jun 2012 00:01:49 UTC +00:00], ["name", nil], ["primary", nil], ["updated_at", Sun, 17 Jun 2012 00:01:49 UTC +00:00]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "watchtower_emails" WHERE "watchtower_emails"."contact_id" = 1
+  [1m[36mWatchtower::Email Load (0.1ms)[0m  [1mSELECT "watchtower_emails".* FROM "watchtower_emails" WHERE "watchtower_emails"."contact_id" = 1 LIMIT 1[0m
+  [1m[35m (0.6ms)[0m  rollback transaction
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (3.9ms)[0m  [1mINSERT INTO "watchtower_contacts" ("created_at", "first_name", "gender", "last_name", "middle_name", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", Sun, 17 Jun 2012 00:02:18 UTC +00:00], ["first_name", nil], ["gender", nil], ["last_name", nil], ["middle_name", nil], ["updated_at", Sun, 17 Jun 2012 00:02:18 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.7ms)[0m  INSERT INTO "watchtower_emails" ("address", "contact_id", "created_at", "name", "primary", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["address", "j.fraser@modsognir.com"], ["contact_id", 1], ["created_at", Sun, 17 Jun 2012 00:02:18 UTC +00:00], ["name", nil], ["primary", nil], ["updated_at", Sun, 17 Jun 2012 00:02:18 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "watchtower_emails" WHERE "watchtower_emails"."contact_id" = 1
+  [1m[36mWatchtower::Email Load (0.1ms)[0m  [1mSELECT "watchtower_emails".* FROM "watchtower_emails" WHERE "watchtower_emails"."contact_id" = 1 LIMIT 1[0m
+  [1m[35m (1.9ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (7.8ms)[0m  INSERT INTO "watchtower_contacts" ("created_at", "first_name", "gender", "last_name", "middle_name", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["created_at", Sun, 17 Jun 2012 00:22:43 UTC +00:00], ["first_name", nil], ["gender", nil], ["last_name", nil], ["middle_name", nil], ["updated_at", Sun, 17 Jun 2012 00:22:43 UTC +00:00]]
+  [1m[36m (1.2ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "watchtower_emails" ("address", "contact_id", "created_at", "name", "primary", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["address", "j.fraser@modsognir.com"], ["contact_id", 1], ["created_at", Sun, 17 Jun 2012 00:22:43 UTC +00:00], ["name", nil], ["primary", true], ["updated_at", Sun, 17 Jun 2012 00:22:43 UTC +00:00]]
+  [1m[35m (1.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "watchtower_emails" ("address", "contact_id", "created_at", "name", "primary", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["address", "jared.fraser@modsognir.com"], ["contact_id", 1], ["created_at", Sun, 17 Jun 2012 00:22:43 UTC +00:00], ["name", nil], ["primary", nil], ["updated_at", Sun, 17 Jun 2012 00:22:43 UTC +00:00]]
+  [1m[36m (1.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35mWatchtower::Email Load (0.2ms)[0m  SELECT "watchtower_emails".* FROM "watchtower_emails" WHERE "watchtower_emails"."contact_id" = 1 AND "watchtower_emails"."primary" = 't' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "watchtower_contacts" ("created_at", "first_name", "gender", "last_name", "middle_name", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", Sun, 17 Jun 2012 00:22:43 UTC +00:00], ["first_name", nil], ["gender", nil], ["last_name", nil], ["middle_name", nil], ["updated_at", Sun, 17 Jun 2012 00:22:43 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "watchtower_emails" ("address", "contact_id", "created_at", "name", "primary", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["address", "j.fraser@modsognir.com"], ["contact_id", 2], ["created_at", Sun, 17 Jun 2012 00:22:43 UTC +00:00], ["name", nil], ["primary", nil], ["updated_at", Sun, 17 Jun 2012 00:22:43 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "watchtower_emails" WHERE "watchtower_emails"."contact_id" = 2
+  [1m[36mWatchtower::Email Load (0.1ms)[0m  [1mSELECT "watchtower_emails".* FROM "watchtower_emails" WHERE "watchtower_emails"."contact_id" = 2 LIMIT 1[0m
+  [1m[35m (0.5ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (3.6ms)[0m  INSERT INTO "watchtower_contacts" ("created_at", "first_name", "gender", "last_name", "middle_name", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["created_at", Sun, 17 Jun 2012 00:23:28 UTC +00:00], ["first_name", nil], ["gender", nil], ["last_name", nil], ["middle_name", nil], ["updated_at", Sun, 17 Jun 2012 00:23:28 UTC +00:00]]
+  [1m[36m (2.4ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "watchtower_emails" ("address", "contact_id", "created_at", "name", "primary", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["address", "j.fraser@modsognir.com"], ["contact_id", 2], ["created_at", Sun, 17 Jun 2012 00:23:28 UTC +00:00], ["name", nil], ["primary", true], ["updated_at", Sun, 17 Jun 2012 00:23:28 UTC +00:00]]
+  [1m[35m (1.1ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "watchtower_emails" ("address", "contact_id", "created_at", "name", "primary", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["address", "jared.fraser@modsognir.com"], ["contact_id", 2], ["created_at", Sun, 17 Jun 2012 00:23:28 UTC +00:00], ["name", nil], ["primary", nil], ["updated_at", Sun, 17 Jun 2012 00:23:28 UTC +00:00]]
+  [1m[36m (1.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35mWatchtower::Email Load (0.2ms)[0m  SELECT "watchtower_emails".* FROM "watchtower_emails" WHERE "watchtower_emails"."contact_id" = 2 AND "watchtower_emails"."primary" = 't' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "watchtower_contacts" ("created_at", "first_name", "gender", "last_name", "middle_name", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", Sun, 17 Jun 2012 00:23:28 UTC +00:00], ["first_name", nil], ["gender", nil], ["last_name", nil], ["middle_name", nil], ["updated_at", Sun, 17 Jun 2012 00:23:28 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "watchtower_emails" ("address", "contact_id", "created_at", "name", "primary", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["address", "j.fraser@modsognir.com"], ["contact_id", 3], ["created_at", Sun, 17 Jun 2012 00:23:28 UTC +00:00], ["name", nil], ["primary", nil], ["updated_at", Sun, 17 Jun 2012 00:23:28 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "watchtower_emails" WHERE "watchtower_emails"."contact_id" = 3
+  [1m[36mWatchtower::Email Load (0.1ms)[0m  [1mSELECT "watchtower_emails".* FROM "watchtower_emails" WHERE "watchtower_emails"."contact_id" = 3 LIMIT 1[0m
+  [1m[35m (0.5ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (3.5ms)[0m  INSERT INTO "watchtower_contacts" ("created_at", "first_name", "gender", "last_name", "middle_name", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["created_at", Sun, 17 Jun 2012 00:25:11 UTC +00:00], ["first_name", nil], ["gender", nil], ["last_name", nil], ["middle_name", nil], ["updated_at", Sun, 17 Jun 2012 00:25:11 UTC +00:00]]
+  [1m[36m (2.5ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "watchtower_emails" ("address", "contact_id", "created_at", "name", "primary", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["address", "j.fraser@modsognir.com"], ["contact_id", 3], ["created_at", Sun, 17 Jun 2012 00:25:11 UTC +00:00], ["name", nil], ["primary", true], ["updated_at", Sun, 17 Jun 2012 00:25:11 UTC +00:00]]
+  [1m[35m (1.1ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "watchtower_emails" ("address", "contact_id", "created_at", "name", "primary", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["address", "jared.fraser@modsognir.com"], ["contact_id", 3], ["created_at", Sun, 17 Jun 2012 00:25:11 UTC +00:00], ["name", nil], ["primary", nil], ["updated_at", Sun, 17 Jun 2012 00:25:11 UTC +00:00]]
+  [1m[36m (1.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mcommit transaction[0m
+  [1m[35mWatchtower::Email Load (0.2ms)[0m  SELECT "watchtower_emails".* FROM "watchtower_emails" WHERE "watchtower_emails"."contact_id" = 3 AND "watchtower_emails"."primary" = 't' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "watchtower_contacts" ("created_at", "first_name", "gender", "last_name", "middle_name", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", Sun, 17 Jun 2012 00:25:11 UTC +00:00], ["first_name", nil], ["gender", nil], ["last_name", nil], ["middle_name", nil], ["updated_at", Sun, 17 Jun 2012 00:25:11 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "watchtower_emails" ("address", "contact_id", "created_at", "name", "primary", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["address", "j.fraser@modsognir.com"], ["contact_id", 4], ["created_at", Sun, 17 Jun 2012 00:25:11 UTC +00:00], ["name", nil], ["primary", nil], ["updated_at", Sun, 17 Jun 2012 00:25:11 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "watchtower_emails" WHERE "watchtower_emails"."contact_id" = 4
+  [1m[36mWatchtower::Email Load (0.1ms)[0m  [1mSELECT "watchtower_emails".* FROM "watchtower_emails" WHERE "watchtower_emails"."contact_id" = 4 LIMIT 1[0m
+  [1m[35m (0.5ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (3.5ms)[0m  INSERT INTO "watchtower_contacts" ("created_at", "first_name", "gender", "last_name", "middle_name", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["created_at", Sun, 17 Jun 2012 00:30:30 UTC +00:00], ["first_name", nil], ["gender", nil], ["last_name", nil], ["middle_name", nil], ["updated_at", Sun, 17 Jun 2012 00:30:30 UTC +00:00]]
+  [1m[36m (2.4ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "watchtower_emails" ("address", "contact_id", "created_at", "name", "primary", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["address", "j.fraser@modsognir.com"], ["contact_id", 4], ["created_at", Sun, 17 Jun 2012 00:30:30 UTC +00:00], ["name", nil], ["primary", true], ["updated_at", Sun, 17 Jun 2012 00:30:30 UTC +00:00]]
+  [1m[35m (1.2ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "watchtower_emails" ("address", "contact_id", "created_at", "name", "primary", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["address", "jared.fraser@modsognir.com"], ["contact_id", 4], ["created_at", Sun, 17 Jun 2012 00:30:30 UTC +00:00], ["name", nil], ["primary", nil], ["updated_at", Sun, 17 Jun 2012 00:30:30 UTC +00:00]]
+  [1m[36m (1.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35mWatchtower::Email Load (0.2ms)[0m  SELECT "watchtower_emails".* FROM "watchtower_emails" WHERE "watchtower_emails"."contact_id" = 4 AND "watchtower_emails"."primary" = 't' LIMIT 1
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (3.5ms)[0m  INSERT INTO "watchtower_contacts" ("created_at", "first_name", "gender", "last_name", "middle_name", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["created_at", Sun, 17 Jun 2012 00:30:52 UTC +00:00], ["first_name", nil], ["gender", nil], ["last_name", nil], ["middle_name", nil], ["updated_at", Sun, 17 Jun 2012 00:30:52 UTC +00:00]]
+  [1m[36m (2.2ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "watchtower_emails" ("address", "contact_id", "created_at", "name", "primary", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["address", "j.fraser@modsognir.com"], ["contact_id", 5], ["created_at", Sun, 17 Jun 2012 00:30:52 UTC +00:00], ["name", nil], ["primary", true], ["updated_at", Sun, 17 Jun 2012 00:30:52 UTC +00:00]]
+  [1m[35m (1.2ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "watchtower_emails" ("address", "contact_id", "created_at", "name", "primary", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["address", "jared.fraser@modsognir.com"], ["contact_id", 5], ["created_at", Sun, 17 Jun 2012 00:30:52 UTC +00:00], ["name", nil], ["primary", nil], ["updated_at", Sun, 17 Jun 2012 00:30:52 UTC +00:00]]
+  [1m[36m (1.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35mWatchtower::Email Load (0.2ms)[0m  SELECT "watchtower_emails".* FROM "watchtower_emails" WHERE "watchtower_emails"."contact_id" = 5 AND "watchtower_emails"."primary" = 't' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "watchtower_contacts" ("created_at", "first_name", "gender", "last_name", "middle_name", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", Sun, 17 Jun 2012 00:30:52 UTC +00:00], ["first_name", nil], ["gender", nil], ["last_name", nil], ["middle_name", nil], ["updated_at", Sun, 17 Jun 2012 00:30:52 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "watchtower_emails" ("address", "contact_id", "created_at", "name", "primary", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["address", "j.fraser@modsognir.com"], ["contact_id", 6], ["created_at", Sun, 17 Jun 2012 00:30:52 UTC +00:00], ["name", nil], ["primary", nil], ["updated_at", Sun, 17 Jun 2012 00:30:52 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "watchtower_emails" WHERE "watchtower_emails"."contact_id" = 6
+  [1m[36mWatchtower::Email Load (0.1ms)[0m  [1mSELECT "watchtower_emails".* FROM "watchtower_emails" WHERE "watchtower_emails"."contact_id" = 6 LIMIT 1[0m
+  [1m[35m (0.5ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "watchtower_contacts" ("created_at", "first_name", "gender", "last_name", "middle_name", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", Sun, 17 Jun 2012 00:30:52 UTC +00:00], ["first_name", nil], ["gender", nil], ["last_name", nil], ["middle_name", nil], ["updated_at", Sun, 17 Jun 2012 00:30:52 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  ROLLBACK TO SAVEPOINT active_record_1
+  [1m[36m (0.5ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.2ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreateWatchtowerContacts (20120616233432)
+Migrating to CreateWatchtowerEmails (20120616235440)
+Migrating to CreateWatchtowerPhones (20120617002810)
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.4ms)[0m  CREATE TABLE "watchtower_phones" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "number" varchar(255), "contact_id" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("watchtower_phones")[0m
+  [1m[35m (0.1ms)[0m  CREATE INDEX "index_watchtower_phones_on_contact_id" ON "watchtower_phones" ("contact_id")
+  [1m[36m (0.1ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20120617002810')[0m
+  [1m[35m (2.4ms)[0m  commit transaction
+  [1m[36m (0.3ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("watchtower_contacts")[0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("watchtower_emails")
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("watchtower_phones")[0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_info('index_watchtower_phones_on_contact_id')
+Connecting to database specified by database.yml
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (3.5ms)[0m  INSERT INTO "watchtower_contacts" ("created_at", "first_name", "gender", "last_name", "middle_name", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["created_at", Sun, 17 Jun 2012 00:31:17 UTC +00:00], ["first_name", nil], ["gender", nil], ["last_name", nil], ["middle_name", nil], ["updated_at", Sun, 17 Jun 2012 00:31:17 UTC +00:00]]
+  [1m[36m (2.4ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "watchtower_emails" ("address", "contact_id", "created_at", "name", "primary", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["address", "j.fraser@modsognir.com"], ["contact_id", 6], ["created_at", Sun, 17 Jun 2012 00:31:17 UTC +00:00], ["name", nil], ["primary", true], ["updated_at", Sun, 17 Jun 2012 00:31:17 UTC +00:00]]
+  [1m[35m (1.2ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "watchtower_emails" ("address", "contact_id", "created_at", "name", "primary", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["address", "jared.fraser@modsognir.com"], ["contact_id", 6], ["created_at", Sun, 17 Jun 2012 00:31:17 UTC +00:00], ["name", nil], ["primary", nil], ["updated_at", Sun, 17 Jun 2012 00:31:17 UTC +00:00]]
+  [1m[36m (0.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35mWatchtower::Email Load (0.2ms)[0m  SELECT "watchtower_emails".* FROM "watchtower_emails" WHERE "watchtower_emails"."contact_id" = 6 AND "watchtower_emails"."primary" = 't' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "watchtower_contacts" ("created_at", "first_name", "gender", "last_name", "middle_name", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", Sun, 17 Jun 2012 00:31:17 UTC +00:00], ["first_name", nil], ["gender", nil], ["last_name", nil], ["middle_name", nil], ["updated_at", Sun, 17 Jun 2012 00:31:17 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "watchtower_emails" ("address", "contact_id", "created_at", "name", "primary", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["address", "j.fraser@modsognir.com"], ["contact_id", 7], ["created_at", Sun, 17 Jun 2012 00:31:17 UTC +00:00], ["name", nil], ["primary", nil], ["updated_at", Sun, 17 Jun 2012 00:31:17 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "watchtower_emails" WHERE "watchtower_emails"."contact_id" = 7
+  [1m[36mWatchtower::Email Load (0.1ms)[0m  [1mSELECT "watchtower_emails".* FROM "watchtower_emails" WHERE "watchtower_emails"."contact_id" = 7 LIMIT 1[0m
+  [1m[35m (0.4ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "watchtower_contacts" ("created_at", "first_name", "gender", "last_name", "middle_name", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", Sun, 17 Jun 2012 00:31:17 UTC +00:00], ["first_name", nil], ["gender", nil], ["last_name", nil], ["middle_name", nil], ["updated_at", Sun, 17 Jun 2012 00:31:17 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "watchtower_phones" ("contact_id", "created_at", "number", "updated_at") VALUES (?, ?, ?, ?)  [["contact_id", 7], ["created_at", Sun, 17 Jun 2012 00:31:17 UTC +00:00], ["number", "04209991111"], ["updated_at", Sun, 17 Jun 2012 00:31:17 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "watchtower_phones" WHERE "watchtower_phones"."contact_id" = 7
+  [1m[36mWatchtower::Phone Load (0.1ms)[0m  [1mSELECT "watchtower_phones".* FROM "watchtower_phones" WHERE "watchtower_phones"."contact_id" = 7 LIMIT 1[0m
+  [1m[35m (0.5ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (3.6ms)[0m  INSERT INTO "watchtower_contacts" ("created_at", "first_name", "gender", "last_name", "middle_name", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["created_at", Sun, 17 Jun 2012 00:31:47 UTC +00:00], ["first_name", nil], ["gender", nil], ["last_name", nil], ["middle_name", nil], ["updated_at", Sun, 17 Jun 2012 00:31:47 UTC +00:00]]
+  [1m[36m (2.3ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "watchtower_emails" ("address", "contact_id", "created_at", "name", "primary", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["address", "j.fraser@modsognir.com"], ["contact_id", 7], ["created_at", Sun, 17 Jun 2012 00:31:47 UTC +00:00], ["name", nil], ["primary", true], ["updated_at", Sun, 17 Jun 2012 00:31:47 UTC +00:00]]
+  [1m[35m (1.1ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "watchtower_emails" ("address", "contact_id", "created_at", "name", "primary", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["address", "jared.fraser@modsognir.com"], ["contact_id", 7], ["created_at", Sun, 17 Jun 2012 00:31:47 UTC +00:00], ["name", nil], ["primary", nil], ["updated_at", Sun, 17 Jun 2012 00:31:47 UTC +00:00]]
+  [1m[36m (1.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35mWatchtower::Email Load (0.2ms)[0m  SELECT "watchtower_emails".* FROM "watchtower_emails" WHERE "watchtower_emails"."contact_id" = 7 AND "watchtower_emails"."primary" = 't' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "watchtower_contacts" ("created_at", "first_name", "gender", "last_name", "middle_name", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", Sun, 17 Jun 2012 00:31:47 UTC +00:00], ["first_name", nil], ["gender", nil], ["last_name", nil], ["middle_name", nil], ["updated_at", Sun, 17 Jun 2012 00:31:47 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "watchtower_emails" ("address", "contact_id", "created_at", "name", "primary", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["address", "j.fraser@modsognir.com"], ["contact_id", 8], ["created_at", Sun, 17 Jun 2012 00:31:47 UTC +00:00], ["name", nil], ["primary", nil], ["updated_at", Sun, 17 Jun 2012 00:31:47 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "watchtower_emails" WHERE "watchtower_emails"."contact_id" = 8
+  [1m[36mWatchtower::Email Load (0.1ms)[0m  [1mSELECT "watchtower_emails".* FROM "watchtower_emails" WHERE "watchtower_emails"."contact_id" = 8 LIMIT 1[0m
+  [1m[35m (0.5ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "watchtower_contacts" ("created_at", "first_name", "gender", "last_name", "middle_name", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", Sun, 17 Jun 2012 00:31:47 UTC +00:00], ["first_name", nil], ["gender", nil], ["last_name", nil], ["middle_name", nil], ["updated_at", Sun, 17 Jun 2012 00:31:47 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "watchtower_phones" ("contact_id", "created_at", "number", "updated_at") VALUES (?, ?, ?, ?)  [["contact_id", 8], ["created_at", Sun, 17 Jun 2012 00:31:47 UTC +00:00], ["number", "04209991111"], ["updated_at", Sun, 17 Jun 2012 00:31:47 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "watchtower_phones" WHERE "watchtower_phones"."contact_id" = 8
+  [1m[36mWatchtower::Phone Load (0.1ms)[0m  [1mSELECT "watchtower_phones".* FROM "watchtower_phones" WHERE "watchtower_phones"."contact_id" = 8 LIMIT 1[0m
+  [1m[35m (0.4ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (4.5ms)[0m  INSERT INTO "watchtower_contacts" ("created_at", "first_name", "gender", "last_name", "middle_name", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["created_at", Sun, 17 Jun 2012 00:34:37 UTC +00:00], ["first_name", nil], ["gender", nil], ["last_name", nil], ["middle_name", nil], ["updated_at", Sun, 17 Jun 2012 00:34:37 UTC +00:00]]
+  [1m[36m (2.5ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "watchtower_emails" ("address", "contact_id", "created_at", "name", "primary", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["address", "j.fraser@modsognir.com"], ["contact_id", 8], ["created_at", Sun, 17 Jun 2012 00:34:37 UTC +00:00], ["name", nil], ["primary", true], ["updated_at", Sun, 17 Jun 2012 00:34:37 UTC +00:00]]
+  [1m[35m (1.1ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "watchtower_emails" ("address", "contact_id", "created_at", "name", "primary", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["address", "jared.fraser@modsognir.com"], ["contact_id", 8], ["created_at", Sun, 17 Jun 2012 00:34:37 UTC +00:00], ["name", nil], ["primary", nil], ["updated_at", Sun, 17 Jun 2012 00:34:37 UTC +00:00]]
+  [1m[36m (1.2ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35mWatchtower::Email Load (0.2ms)[0m  SELECT "watchtower_emails".* FROM "watchtower_emails" WHERE "watchtower_emails"."contact_id" = 8 AND "watchtower_emails"."primary" = 't' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "watchtower_contacts" ("created_at", "first_name", "gender", "last_name", "middle_name", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", Sun, 17 Jun 2012 00:34:37 UTC +00:00], ["first_name", nil], ["gender", nil], ["last_name", nil], ["middle_name", nil], ["updated_at", Sun, 17 Jun 2012 00:34:37 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "watchtower_emails" ("address", "contact_id", "created_at", "name", "primary", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["address", "j.fraser@modsognir.com"], ["contact_id", 9], ["created_at", Sun, 17 Jun 2012 00:34:37 UTC +00:00], ["name", nil], ["primary", nil], ["updated_at", Sun, 17 Jun 2012 00:34:37 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "watchtower_emails" WHERE "watchtower_emails"."contact_id" = 9
+  [1m[36mWatchtower::Email Load (0.1ms)[0m  [1mSELECT "watchtower_emails".* FROM "watchtower_emails" WHERE "watchtower_emails"."contact_id" = 9 LIMIT 1[0m
+  [1m[35m (0.6ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "watchtower_contacts" ("created_at", "first_name", "gender", "last_name", "middle_name", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", Sun, 17 Jun 2012 00:34:37 UTC +00:00], ["first_name", nil], ["gender", nil], ["last_name", nil], ["middle_name", nil], ["updated_at", Sun, 17 Jun 2012 00:34:37 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "watchtower_phones" ("contact_id", "created_at", "number", "updated_at") VALUES (?, ?, ?, ?)  [["contact_id", 9], ["created_at", Sun, 17 Jun 2012 00:34:37 UTC +00:00], ["number", "04209991111"], ["updated_at", Sun, 17 Jun 2012 00:34:37 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "watchtower_phones" WHERE "watchtower_phones"."contact_id" = 9
+  [1m[36mWatchtower::Phone Load (0.1ms)[0m  [1mSELECT "watchtower_phones".* FROM "watchtower_phones" WHERE "watchtower_phones"."contact_id" = 9 LIMIT 1[0m
+  [1m[35m (0.6ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (3.4ms)[0m  INSERT INTO "watchtower_contacts" ("created_at", "first_name", "gender", "last_name", "middle_name", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["created_at", Sun, 17 Jun 2012 00:35:21 UTC +00:00], ["first_name", nil], ["gender", nil], ["last_name", nil], ["middle_name", nil], ["updated_at", Sun, 17 Jun 2012 00:35:21 UTC +00:00]]
+  [1m[36m (2.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "watchtower_emails" ("address", "contact_id", "created_at", "name", "primary", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["address", "j.fraser@modsognir.com"], ["contact_id", 9], ["created_at", Sun, 17 Jun 2012 00:35:21 UTC +00:00], ["name", nil], ["primary", true], ["updated_at", Sun, 17 Jun 2012 00:35:21 UTC +00:00]]
+  [1m[35m (1.4ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "watchtower_emails" ("address", "contact_id", "created_at", "name", "primary", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["address", "jared.fraser@modsognir.com"], ["contact_id", 9], ["created_at", Sun, 17 Jun 2012 00:35:21 UTC +00:00], ["name", nil], ["primary", nil], ["updated_at", Sun, 17 Jun 2012 00:35:21 UTC +00:00]]
+  [1m[36m (1.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35mWatchtower::Email Load (0.2ms)[0m  SELECT "watchtower_emails".* FROM "watchtower_emails" WHERE "watchtower_emails"."contact_id" = 9 AND "watchtower_emails"."primary" = 't' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "watchtower_contacts" ("created_at", "first_name", "gender", "last_name", "middle_name", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", Sun, 17 Jun 2012 00:35:21 UTC +00:00], ["first_name", nil], ["gender", nil], ["last_name", nil], ["middle_name", nil], ["updated_at", Sun, 17 Jun 2012 00:35:21 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "watchtower_emails" ("address", "contact_id", "created_at", "name", "primary", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["address", "j.fraser@modsognir.com"], ["contact_id", 10], ["created_at", Sun, 17 Jun 2012 00:35:21 UTC +00:00], ["name", nil], ["primary", nil], ["updated_at", Sun, 17 Jun 2012 00:35:21 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "watchtower_emails" WHERE "watchtower_emails"."contact_id" = 10
+  [1m[36mWatchtower::Email Load (0.1ms)[0m  [1mSELECT "watchtower_emails".* FROM "watchtower_emails" WHERE "watchtower_emails"."contact_id" = 10 LIMIT 1[0m
+  [1m[35m (0.5ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "watchtower_contacts" ("created_at", "first_name", "gender", "last_name", "middle_name", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", Sun, 17 Jun 2012 00:35:21 UTC +00:00], ["first_name", nil], ["gender", nil], ["last_name", nil], ["middle_name", nil], ["updated_at", Sun, 17 Jun 2012 00:35:21 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "watchtower_phones" ("contact_id", "created_at", "number", "updated_at") VALUES (?, ?, ?, ?)  [["contact_id", 10], ["created_at", Sun, 17 Jun 2012 00:35:21 UTC +00:00], ["number", "04209991111"], ["updated_at", Sun, 17 Jun 2012 00:35:21 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "watchtower_phones" WHERE "watchtower_phones"."contact_id" = 10
+  [1m[36mWatchtower::Phone Load (0.1ms)[0m  [1mSELECT "watchtower_phones".* FROM "watchtower_phones" WHERE "watchtower_phones"."contact_id" = 10 LIMIT 1[0m
+  [1m[35m (0.5ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (3.3ms)[0m  INSERT INTO "watchtower_contacts" ("created_at", "first_name", "gender", "last_name", "middle_name", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["created_at", Sun, 17 Jun 2012 00:52:31 UTC +00:00], ["first_name", nil], ["gender", nil], ["last_name", nil], ["middle_name", nil], ["updated_at", Sun, 17 Jun 2012 00:52:31 UTC +00:00]]
+  [1m[36m (2.6ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "watchtower_emails" ("address", "contact_id", "created_at", "name", "primary", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["address", "j.fraser@modsognir.com"], ["contact_id", 10], ["created_at", Sun, 17 Jun 2012 00:52:31 UTC +00:00], ["name", nil], ["primary", true], ["updated_at", Sun, 17 Jun 2012 00:52:31 UTC +00:00]]
+  [1m[35m (1.1ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "watchtower_emails" ("address", "contact_id", "created_at", "name", "primary", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["address", "jared.fraser@modsognir.com"], ["contact_id", 10], ["created_at", Sun, 17 Jun 2012 00:52:31 UTC +00:00], ["name", nil], ["primary", nil], ["updated_at", Sun, 17 Jun 2012 00:52:31 UTC +00:00]]
+  [1m[36m (1.3ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mcommit transaction[0m
+  [1m[35mWatchtower::Email Load (0.2ms)[0m  SELECT "watchtower_emails".* FROM "watchtower_emails" WHERE "watchtower_emails"."contact_id" = 10 AND "watchtower_emails"."primary" = 't' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "watchtower_contacts" ("created_at", "first_name", "gender", "last_name", "middle_name", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", Sun, 17 Jun 2012 00:52:31 UTC +00:00], ["first_name", nil], ["gender", nil], ["last_name", nil], ["middle_name", nil], ["updated_at", Sun, 17 Jun 2012 00:52:31 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "watchtower_emails" ("address", "contact_id", "created_at", "name", "primary", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["address", "j.fraser@modsognir.com"], ["contact_id", 11], ["created_at", Sun, 17 Jun 2012 00:52:31 UTC +00:00], ["name", nil], ["primary", nil], ["updated_at", Sun, 17 Jun 2012 00:52:31 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "watchtower_emails" WHERE "watchtower_emails"."contact_id" = 11
+  [1m[36mWatchtower::Email Load (0.1ms)[0m  [1mSELECT "watchtower_emails".* FROM "watchtower_emails" WHERE "watchtower_emails"."contact_id" = 11 LIMIT 1[0m
+  [1m[35m (0.5ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "watchtower_contacts" ("created_at", "first_name", "gender", "last_name", "middle_name", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", Sun, 17 Jun 2012 00:52:31 UTC +00:00], ["first_name", nil], ["gender", nil], ["last_name", nil], ["middle_name", nil], ["updated_at", Sun, 17 Jun 2012 00:52:31 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "watchtower_phones" ("contact_id", "created_at", "number", "updated_at") VALUES (?, ?, ?, ?)  [["contact_id", 11], ["created_at", Sun, 17 Jun 2012 00:52:31 UTC +00:00], ["number", "04209991111"], ["updated_at", Sun, 17 Jun 2012 00:52:31 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "watchtower_phones" WHERE "watchtower_phones"."contact_id" = 11
+  [1m[36mWatchtower::Phone Load (0.1ms)[0m  [1mSELECT "watchtower_phones".* FROM "watchtower_phones" WHERE "watchtower_phones"."contact_id" = 11 LIMIT 1[0m
+  [1m[35m (0.5ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
