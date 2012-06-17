@@ -1,10 +1,10 @@
 module Watchtower
   class Contact < ActiveRecord::Base
-    attr_accessible :first_name, :gender, :last_name, :middle_name
+    attr_accessible :first_name, :gender, :last_name, :middle_name, :primary_phone, :primary_email
 
     module DataExtension
-      def add(string)
-        create(content: string)
+      def add(string, opts={})
+        create(content: string, primary: opts[:primary])
       end
     end
 
@@ -13,16 +13,15 @@ module Watchtower
 
     has_many :addresses, :class_name => "Watchtower::Address"
 
-    def primary_email
-      emails.where(primary: true).first || emails.first
-    end
 
-    def primary_address
-      addresses.where(primary: true).first || addresses.first
-    end
+    %w(email address phone).each do |type|
+      define_method "primary_#{type}" do
+        self.send(type.pluralize).where(primary: true).first || self.send(type.pluralize).first
+      end
 
-    def primary_phone
-      phones.where(primary: true).first || phones.first
+      define_method "primary_#{type}=" do |addr|
+        self.send(type.pluralize).build(content: addr, primary: true)
+      end
     end
 
     def full_name
