@@ -12,14 +12,14 @@ describe 'Categorising a Contact' do
 
     current_path.should == wtapp.contact_path(contact)
 
-    contact.reload.tag_names.map(&:to_s).should include("Bad News")
+    contact.reload.tag_names.map(&:to_s).should include("bad news")
   end
 
   it "can list a bunch of tags" do
-    Tag.create(name: "Some Tag"
+    Watchtower::Tag.create(name: "some tag")
 
     visit wtapp.tags_path
 
-
+    
   end
 end

@@ -51,7 +51,7 @@ describe Watchtower::Contact do
     it "adds an unmade tag" do
       contact = Watchtower::Contact.create!
       contact.tag_with("Some Classification")
-      contact.reload.tag_names.should include("Some Classification")
+      contact.reload.tag_names.should include("some classification")
     end
   end
 end
