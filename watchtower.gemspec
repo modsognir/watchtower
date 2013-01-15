@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   s.version     = Watchtower::VERSION
   s.authors     = ["Jared Fraser"]
   s.email       = ["dev@jsf.io"]
-  s.homepage    = "TODO"
+  s.homepage    = "http://github.com/modsognir/watchtower"
   s.summary     = "Rails CRM Engine"
   s.description = "Rails CRM Engine"
 
