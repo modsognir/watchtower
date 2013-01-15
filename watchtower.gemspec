@@ -8,10 +8,10 @@ Gem::Specification.new do |s|
   s.name        = "watchtower"
   s.version     = Watchtower::VERSION
   s.authors     = ["Jared Fraser"]
-  s.email       = ["j.fraser@modsognir.com"]
+  s.email       = ["dev@jsf.io"]
   s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of Watchtower."
-  s.description = "TODO: Description of Watchtower."
+  s.summary     = "Rails CRM Engine"
+  s.description = "Rails CRM Engine"
 
   s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.rdoc"]
   s.test_files = Dir["test/**/*"]
