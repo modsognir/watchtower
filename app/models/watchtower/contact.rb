@@ -10,6 +10,7 @@ module Watchtower
 
     has_many :emails, :class_name => "Watchtower::Email", :extend => DataExtension
     has_many :phones, :class_name => "Watchtower::Phone", :extend => DataExtension
+    has_many :custom_data, :class_name => "Watchtower::CustomData", :extend => DataExtension
 
     has_many :addresses, :class_name => "Watchtower::Address"
 

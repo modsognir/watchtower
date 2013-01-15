@@ -18,6 +18,12 @@
     <dt>phone</dt>
     <dd><%= @contact.primary_phone %></dd>
   </div>
+  <% @contact.custom_data.each do |field| %>
+    <div id="custom_data_<%= field.name.parameterize %>">
+      <dt><%= field.name %></dt>
+      <dd><%= field.content %></dd>
+    </div>
+  <% end %>
 </dl>
 
 <div class="dialog tags" id="tags">

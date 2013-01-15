@@ -5,7 +5,7 @@ module Watchtower
     belongs_to :contact, :class_name => "Watchtower::Contact"
 
     def name
-      self[:name] || "Other"
+      self[:name] || "other"
     end
 
     def to_s
