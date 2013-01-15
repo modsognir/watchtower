@@ -1,4 +1,4 @@
-<h1>Contacts</h1>
+<h1><%= @tag.name %> </h1>
 
 <table class="table table-bordered table-striped">
   <thead>
@@ -14,10 +14,10 @@
   </thead>
 
   <tbody>
-    <%= render @contacts %>
+    <%= render @tag.contacts %>
   </thead>
 </table>
 
 <br />
 
-<%= link_to 'New Contact', new_contact_path %>
+<%= link_to 'Back', tags_path %>
