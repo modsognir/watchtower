@@ -1,14 +1,14 @@
-<% if notice %>
-  <p id="notice" class="alert alert-info"><%= notice %></p>
+
+<% content_for :header do %>
+  <h2><%= @contact.full_name %></h3>
+    <ul class="tags">
+      <% @contact.tags.each do |tag| %>
+        <li><span class="label"><%= tag.to_s %></span></li>
+      <% end %>
+      <li><%= link_to "add", "#", 'data-form' => 'tags' %></li>
+    </ul>
 <% end %>
 
-<h2><%= @contact.full_name %></h3>
-  <ul class="tags">
-    <% @contact.tags.each do |tag| %>
-      <li><span class="label"><%= tag.to_s %></span></li>
-    <% end %>
-    <li><%= link_to "add", "#", 'data-form' => 'tags' %></li>
-  </ul>
 <dl>
   <div>
     <dt>email</dt>
@@ -40,22 +40,13 @@
   </p>
 </div>
 
-<div id="sidebar">
-  <h3>Email Addresses</h3>
-  <ul>
-    <li><%= render @contact.emails %></li>
-  </ul>
-
-  <h3>Phone Numbers</h3>
-  <ul>
-    <li><%= render @contact.phones %></li>
-  </ul>
-
-  <h3>Addresses</h3>
-  <ul>
-    <li><%= render @contact.addresses %></li>
-  </ul>
-</div>
+<!-- <div id="sidebar"> -->
+  <table>
+    <%= render @contact.emails %>
+    <%= render @contact.phones %>
+    <%= render @contact.addresses %>
+  </table>
+<!-- </div> -->
 
 <div id="notes">
   <h3> Notes </h3>

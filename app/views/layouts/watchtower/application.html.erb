@@ -7,21 +7,29 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-<div class="navbar navbar-fixed-top">
-  <div class="navbar-inner">
-    <a class="brand" href="<%= contacts_path %>">Watchtower Demo</a>
-    <div class="nav-collapse">
-      <ul class="nav">
-        <li class="active"><a href="<%= contacts_path %>">Home</a></li>
-        <li><a href="<%= contacts_path %>">Contacts</a></li>
-        <li><a href="<%= tags_path %>">Categories</a></li>
-<!--         <li><a href="#about">About</a></li>
-        <li><a href="#contact">Contact</a></li> -->
-      </ul>
-    </div><!--/.nav-collapse -->
-  </div>
+<nav class="top-bar">
+  <ul>
+    <li class="name"><h1><a href="#">Watchtower</a></h1></li>
+    <li class="toggle-topbar"><a href="#"></a></li>
+  </ul>
+  <section>
+    <ul class="left">
+      <li><%= link_to "Contacts", contacts_path %></li>
+      <li><%= link_to "Categories", tags_path %></li>
+    </ul>
+  </section>
+</nav>
+<% if notice %>
+  <div class="row"><div id="notice" class="alert-box success alert alert-info"><%= notice %></div></div>
+<% end %>
+
+<div class="row">
+  <%= yield :header %>
 </div>
-<%= yield %>
+
+<div class="row">
+  <%= yield %>
+</div>
 
 </body>
 </html>
