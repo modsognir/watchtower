@@ -10,6 +10,10 @@ body {
   margin-left: 35px;
 }
 
+.field textarea {
+  height: 100px;
+}
+
 ul.tags {
   list-style: none;
   margin-left: 0px;
@@ -123,6 +127,9 @@ table {
   height: 30px;
   text-align: right;
   padding: 14px 15px 15px;
+}
+.dialog form {
+  padding: 0 15px 0 15px;
 }
 /*    a { display: inline-block; }
     a.submit {
